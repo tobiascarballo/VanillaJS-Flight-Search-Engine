@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === HOME === */
+section.home {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+}
+
+section.home h1 {
+  color: #ffcc00;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section.home p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+section.home a {
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #2e2e2e;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+section.home a:hover {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+/* === RESULTADOS === */
+.results {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 700px;
+}
+
+.results h1 {
+  color: #ffcc00;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.results li {
+  background: #f7f7f7;
+  margin: 10px 0;
+  padding: 1rem;
+  border-left: 5px solid #ffcc00;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.results li:hover {
+  transform: scale(1.03);
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* === ERROR === */
+.error {
+  color: #c62828;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
